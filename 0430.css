@@ -63,7 +63,7 @@ header #toggle:after{
     width: 100%;
     min-height: 100vh;
     padding: 100px;
-    background:url(./1.jpg);
+    background:url(https://github.com/okaky/example2/blob/master/1.jpg?raw=true);
     background-size: cover;
     display: flex;
     align-items: center;
