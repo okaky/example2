@@ -181,7 +181,7 @@ header #toggle:after{
 }
 
 /* //レスポンシブ */
-@media (max-width: 767px){
+@media (max-width: 1242px){
     header{
         padding: 20px 50px;
     }
