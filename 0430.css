@@ -208,6 +208,7 @@ transform: translateX(-250px)
     }
     .sci{
         position: absolute;
+        left: 50px;
         bottom: 50px;
         flex-direction: row;
     }
