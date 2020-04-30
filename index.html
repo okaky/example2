@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./0430.css"><script src="https://kit.fontawesome.com/0f14119dfa.js" crossorigin="anonymous"></script>
+    <title>example2</title>
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">LOGO</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Welcome Studio,<br>I'm<span>John Doe</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam soluta vero culpa, pariatur repellendus fuga natus, voluptatum id explicabo architecto, quos unde officia doloremque deserunt consequatur! Quaerat repellendus mollitia blanditiis!</p>
+            <a href="#">Know More</a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><span id="fb" class="fab fa-facebook-f"></span></a></li>
+            <li><a href="#"><span id="tw" class="fab fa-twitter"></span></a></li>
+            <li><a href="#"><span id="in" class="fab fa-instagram-square"></span></a></li>
+            <li><a href="#"><span id="line" class="fab fa-line"></span></a></li>
+            <li><a href="#"><span id="yt" class="fab fa-youtube"></span></a></li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">HOME</li>
+            <li><a href="#">About</li>
+            <li><a href="#">Services</li>
+            <li><a href="#">Portfolio</li>
+            <li><a href="#">Contact</li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+    function toggle(){
+        const sec = document.getElementById('sec');
+        const nav = document.getElementById('navigation');
+        sec.classList.toggle('active')
+        nav.classList.toggle('active')
+    }
+        </script>
+</body>
+</html>
